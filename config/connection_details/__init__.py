@@ -3,6 +3,7 @@ USER = "postgres"
 PASSWORD = "admin"
 HOST = "127.0.0.1"
 
+URI = f"postgresql://{USER}:{PASSWORD}@{HOST}:5432/{DB_NAME}"
 
 TABLES_FOLDER = 'tables'
 VIEWS_FOLDER = 'views'
