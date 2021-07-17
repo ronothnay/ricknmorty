@@ -28,6 +28,7 @@ def main():
                           password=conn.PASSWORD,
                           host=conn.HOST) as connection:
         execute_files(connection, conn.SCHEMAS_FOLDER, conn.SCHEMAS)
+        execute_files(connection, conn.DROPS_FOLDER, conn.DROPS)
         execute_files(connection, conn.TABLES_FOLDER, conn.PRIMARY_TABLES)
         execute_files(connection, conn.TABLES_FOLDER, conn.SECONDARY_TABLES)
         execute_files(connection, conn.VIEWS_FOLDER, conn.VIEWS)

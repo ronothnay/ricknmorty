@@ -1,3 +1,9 @@
+import requests
+import pandas as pd
+
+from config import ALL_TYPES, BASE_URL
+
+
 class Fetcher:
     def __init__(self, object_type: str):
         if object_type not in ALL_TYPES:

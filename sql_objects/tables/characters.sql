@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS storefirst.characters
     species character(50) NOT NULL,
     type character(50) NOT NULL,
     gender character(50) NOT NULL,
-    origin character(50) NOT NULL,
+    origin character(50),
     insertion_time date NOT NULL DEFAULT CURRENT_DATE,
     PRIMARY KEY (character_id)
 );
