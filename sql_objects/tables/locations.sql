@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS storefirst.seasons
+CREATE TABLE IF NOT EXISTS storefirst.locations
 (
     location_id character(50) NOT NULL,
     name character(50) NOT NULL,

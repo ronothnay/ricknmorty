@@ -1,4 +1,4 @@
-CREATE TABLE storefirst.characters
+CREATE TABLE IF NOT EXISTS storefirst.characters
 (
     character_id character(50) NOT NULL,
     first_name character(50),
